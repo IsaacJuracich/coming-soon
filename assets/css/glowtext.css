@@ -1,0 +1,122 @@
+.glowtext {
+  animation: neon .08s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px rgba(202,228,225,0.92), 0 0 30px rgba(202,228,225,0.34), 0 0 12px rgba(30,132,242,0.52), 0 0 21px rgba(30,132,242,0.92), 0 0 34px rgba(30,132,242,0.78), 0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202,228,225,0.98), 0 0 30px rgba(202,228,225,0.42), 0 0 12px rgba(30,132,242,0.58), 0 0 22px rgba(30,132,242,0.84), 0 0 38px rgba(30,132,242,0.88), 0 0 60px rgba(30,132,242,1);
+  }
+}
+
+.orbitbutton {
+  border: none;
+  background: rgb(29,29,29);
+}
+
+.orbitbutton:hover {
+  background: white;
+  color: black;
+}
+
+#cloaksbutton {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#tagsbutton {
+  border-radius: 0px;
+}
+
+#wingsbutton {
+  border-radius: 0px;
+}
+
+#headbandsbutton {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.itemimage {
+  width: 50%;
+}
+
+.item {
+  /*border: white;*/
+  /*border-style: solid;*/
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 4px 4px #469bff;
+  background: #111828;
+}
+
+.itemname {
+  font-family: Aldrich, sans-serif;
+  color: white;
+}
+
+#cloaksbutton-1 {
+}
+
+.itembutton {
+  width: 80%;
+  margin-left: 10%;
+  background: #469bff;
+  margin-bottom: 15px;
+}
+
+.modal-header {
+  background: #111828;
+  border-bottom: none;
+  color: white;
+  border: solid;
+  border-color: #469bff;
+  border-bottom: none;
+}
+
+.modal-body {
+  background: #111828;
+  border-bottom: none;
+  border: solid;
+  border-color: #469bff;
+  border-bottom: none;
+  border-top: none;
+}
+
+.modal-footer {
+  background: #111828;
+  border-top: none;
+  border: solid;
+  border-color: #469bff;
+  border-top: none;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #16212f;
+  border-radius: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #29374a;
+  border-radius: 12px;
+  border: 3px solid #16212f;
+}
+
+#custom-cape {
+  margin-left: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#custom-tag {
+  /*border-top-left-radius: 0px;*/
+  /*border-bottom-left-radius: 0px;*/
+  margin-left: 15px;
+}
+

@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  setTimeout(function(){
+    console.log("s")
+    $("#loadingscreen").remove()
+  },5000)
+})
+$(".itembutton").click(function(){
+  $("#itemmodal").modal('show')
+})
